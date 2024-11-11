@@ -1,0 +1,17 @@
+{
+  "name": "benchmark_motors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ws --spa ./example_pages/htmlsimple.html",
+    "start_test": "npx playwright test && npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5"
+  }
+}

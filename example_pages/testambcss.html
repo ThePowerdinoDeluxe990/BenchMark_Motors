@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test amb CSS</title>
+</head>
+<body class="element">
+
+    <style>
+        @keyframes rainbow {
+            0%   {background-color: red;}
+            25%  {background-color: yellow;}
+            50%  {background-color: blue;}
+            100% {background-color: green;}
+        }
+        .element{
+            animation-duration:4s;
+            animation-iteration-count:infinite;
+            animation-name:rainbow;
+            width:100px;
+
+        }
+    </style>
+</body>
+</html>
