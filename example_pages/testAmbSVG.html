@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Test</title>
+</head>
+<body>
+  <svg height="210" width="500" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:#3700ff;stroke:purple;stroke-width:5;"/>
+  </svg>
+
+  <svg height="40" width="250">
+    <text x="5" y="30" fill="red" font-size="35" rotate="30">SVG TEST</text>
+  </svg>
+  <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100" height="100" x="50" y="50" fill="red" />
+  </svg>
+
+  <svg width="300" height="170" xmlns="http://www.w3.org/2000/svg">
+    <rect width="150" height="150" x="10" y="10" style="fill:blue;stroke:pink;stroke-width:5;opacity:0.5" />
+  </svg>
+
+  <svg height="100" width="150" xmlns="http://www.w3.org/2000/svg">
+    <circle r="45" cx="70" cy="50" stroke="blue" stroke-width="3" fill="red" />
+  </svg>
+  <svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <filter id="f1" x="0" y="0">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="15" />
+      </filter>
+    </defs>
+    <rect width="90" height="90" fill="red" filter="url(#f1)" />
+    Sorry, your browser does not support inline SVG.
+  </svg>
+
+  <svg height="150" width="150" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+     <filter id="f1" width="120" height="120">
+    <feOffset in="SourceGraphic" dx="20" dy="20" />
+    <feColorMatrix type="matrix" values = "0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0" />
+    <feGaussianBlur stdDeviation="10" />
+    <feBlend in="SourceGraphic" in2="blurOut" />
+  </filter>
+  </defs>
+    <rect width="90" height="90" stroke="green" stroke-width="3" fill="yellow" filter="url(#f1)" />
+    Sorry, your browser does not support inline SVG.
+  </svg>
+  <svg height="150" width="400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="yellow" />
+        <stop offset="100%" stop-color="red" />
+      </linearGradient>
+    </defs>
+    <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+    Sorry, your browser does not support inline SVG.
+  </svg>
+
+  <svg width="400" height="110" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <pattern id="patt1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+        <circle cx="10" cy="10" r="10" fill="red" />
+      </pattern>
+    </defs>
+
+    <rect width="200" height="100" x="0" y="0" stroke="black" fill="url(#patt1)" />
+    Sorry, your browser does not support inline SVG.
+  </svg>
+
+  <svg height="150" width="400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="grad1" cx="25%" cy="25%" spreadMethod="repeat">
+        <stop offset="0%" stop-color="red" />
+        <stop offset="100%" stop-color="blue" />
+      </radialGradient>
+    </defs>
+    <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+    Sorry, your browser does not support inline SVG.
+  </svg>
+
+  <svg width="200" height="180" xmlns="http://www.w3.org/2000/svg">
+    <rect x="30" y="30" height="110" width="110" style="stroke:green;fill:red">
+      <animateTransform
+              attributeName="transform"
+              begin="0s"
+              dur="10s"
+              type="rotate"
+              from="0 85 85"
+              to="360 85 85"
+              repeatCount="indefinite" />
+    </rect>
+    Sorry, your browser does not support inline SVG.
+  </svg>
+  <a href="https://www.w3schools.com/graphics/svg_examples.asp">
+    Code link
+  </a>
+</body>
+</html>
