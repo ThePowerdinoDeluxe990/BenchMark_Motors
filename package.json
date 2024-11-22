@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "start": "ws --spa ./example_pages/htmlsimple.html",
-    "start_test": "npx playwright test && npx playwright show-report"
+    "start_chromium": "npx playwright test --project chromium && npx monocart show-report monocart-report/index.html ",
+    "start_webkit": "npx playwright test --project webkit && npx monocart show-report monocart-report/index.html ",
+    "start_gecko": "npx playwright test --project firefox && npx monocart show-report monocart-report/index.html "
   },
   "keywords": [],
   "author": "",
@@ -12,6 +14,8 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.48.0",
-    "@types/node": "^22.7.5"
+    "@types/node": "^22.7.5",
+    "globals": "^15.12.0",
+    "monocart-reporter": "^2.9.10"
   }
 }
