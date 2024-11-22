@@ -52,7 +52,7 @@ const loadTests:TestInfo[] = [
     "https://www.kevs3d.co.uk/dev/snowfield/"
   )
 ]
-
+//TODO POPULAR PAGES
   loadTests.forEach( loadTests =>{
     loadTests.runTest()
   }
