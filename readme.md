@@ -21,3 +21,16 @@ Please make sure to update tests as appropriate.
 * Marvel, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons
 
 
+### Used Pages:
+
+https://webglsamples.org/electricflower/electricflower.html
+https://diekmann.github.io/wasm-fizzbuzz/doom/
+https://www.kevs3d.co.uk/dev/html5logo/
+https://www.kevs3d.co.uk/dev/snowfield/
+https://www.google.com/search?q=Space+Jam
+https://en.wikipedia.org/wiki/Axolotl
+https://www.youtube.com/watch?v=jNQXAC9IVRw
+https://x.com/mozilla/status/1865047798879551977
+https://www.instagram.com/fortnite/
+https://www.tiktok.com/@angelaguilop?lang=es
+https://github.com/JetBrains/kotlin?tab=readme-ov-file
