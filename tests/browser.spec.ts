@@ -52,8 +52,32 @@ const loadTests:TestInfo[] = [
     "https://www.kevs3d.co.uk/dev/snowfield/"
   ),
   new TestInfo(
-    "Popular Page 1",
-    ""
+    "Popular Page Google",
+    "https://www.google.com/search?q=Space+Jam"
+  ),
+  new TestInfo(
+    "Popular page Wikipedia",
+    "https://en.wikipedia.org/wiki/Axolotl"
+  ),
+  new TestInfo(
+    "Popular page YouTube",
+    "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+  ),
+  new TestInfo(
+    "Popular page Twitter",
+    "https://x.com/mozilla/status/1865047798879551977"
+  ),
+  new TestInfo(
+    "Popular page Instagram",
+    "https://www.instagram.com/fortnite/"
+  ),
+  new TestInfo(
+    "Popular page Tik Tok",
+    "https://www.tiktok.com/@angelaguilop?lang=es"
+  ),
+  new TestInfo(
+    "Popular page GitHub",
+    "https://github.com/JetBrains/kotlin?tab=readme-ov-file"
   )
 ]
 //TODO POPULAR PAGES
