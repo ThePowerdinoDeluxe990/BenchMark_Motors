@@ -50,6 +50,10 @@ const loadTests:TestInfo[] = [
   new TestInfo(
     "Canvas 2",
     "https://www.kevs3d.co.uk/dev/snowfield/"
+  ),
+  new TestInfo(
+    "Popular Page 1",
+    ""
   )
 ]
 //TODO POPULAR PAGES
