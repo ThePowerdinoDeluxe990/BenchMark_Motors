@@ -4,18 +4,18 @@
   "main": "index.js",
   "scripts": {
     "start": "ws --spa ./example_pages/htmlsimple.html",
-    "start_chromium": "npx playwright test --project chromium && npx monocart show-report monocart-report/index.html ",
-    "start_webkit": "npx playwright test --project webkit && npx monocart show-report monocart-report/index.html ",
-    "start_gecko": "npx playwright test --project firefox && npx monocart show-report monocart-report/index.html "
+    "start_chromium": "npx playwright test --headed --project chromium && npx monocart show-report monocart-report/index.html ",
+    "start_webkit": "npx playwright test --headed --project webkit && npx monocart show-report monocart-report/index.html ",
+    "start_gecko": "npx playwright test --headed --project firefox && npx monocart show-report monocart-report/index.html "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.49.0",
-    "@types/node": "^22.10.1",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2",
     "globals": "^15.13.0",
-    "monocart-reporter": "^2.9.11"
+    "monocart-reporter": "^2.9.12"
   }
 }

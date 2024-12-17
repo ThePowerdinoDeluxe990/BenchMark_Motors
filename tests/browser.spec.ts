@@ -1,6 +1,6 @@
 import {TestInfo} from "./TestInfo"
 import { PerformanceInfo } from './PerformanceInfo'
-
+//Array of test
 const loadTests:TestInfo[] = [
 
   new TestInfo(
@@ -80,12 +80,31 @@ const loadTests:TestInfo[] = [
     "https://github.com/JetBrains/kotlin?tab=readme-ov-file"
   )
 ]
-//TODO POPULAR PAGES
-  loadTests.forEach( loadTests =>{
+
+loadTests.forEach( loadTests =>{
     loadTests.runTest()
   }
 )
 
 const cpuAndRamTest:PerformanceInfo[] = [
-  //TODO CPU AND RAM TESTS
+  new PerformanceInfo(
+    "Performance WEBGL",
+    "https://webglsamples.org/electricflower/electricflower.html"
+  ),
+  new PerformanceInfo(
+    "Performance WASM",
+    "https://diekmann.github.io/wasm-fizzbuzz/doom/"
+  ),
+  new PerformanceInfo(
+    "Performance Canvas 1",
+    "https://www.kevs3d.co.uk/dev/html5logo/"
+  ),
+  new PerformanceInfo(
+    "Performance Canvas 2",
+    "https://www.kevs3d.co.uk/dev/snowfield/"
+  ),
 ]
+
+cpuAndRamTest.forEach(loadTests =>{
+  loadTests.runTest()
+})
