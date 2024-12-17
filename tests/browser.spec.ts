@@ -1,5 +1,4 @@
 import {TestInfo} from "./TestInfo"
-import { PerformanceInfo } from './PerformanceInfo'
 //Array of test
 const loadTests:TestInfo[] = [
 
@@ -85,6 +84,8 @@ loadTests.forEach( loadTests =>{
     loadTests.runTest()
   }
 )
+
+import { PerformanceInfo } from './PerformanceInfo'
 
 const cpuAndRamTest:PerformanceInfo[] = [
   new PerformanceInfo(
